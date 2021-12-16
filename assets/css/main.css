@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bord {
+  @apply border border-[red];
+}
+.cc {
+  @apply items-center justify-center;
+}
+
+.text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-[#04BFBF] to-[rgba(2,89,89,0.97)];
+}
+
+.font-20 {
+  @apply text-[20px];
+}
+.font-18 {
+  @apply text-[18px];
+}
+.font-14 {
+  @apply text-[14px];
+}
+
+.warn-1 {
+  @apply bg-[#38D990];
+}
+
+.warn-2 {
+  @apply bg-[#D97904];
+}
+
+.warn-3 {
+  @apply bg-[#F22727];
+}
+
+.gradient{
+  background: linear-gradient(102.83deg, #04BFBF -6.67%, rgba(2, 89, 89, 0.97) 105.21%);
+}
+
+.box-1{
+  box-shadow: 6px 30px 40px 10px rgba(0, 0, 0, 0.1);
+}
+
