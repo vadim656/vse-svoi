@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[400px] h-full  box-border absolute rounded-[15px] overflow-hidden bg-white box-1"
+    class="w-[400px] h-full absolute  box-border  rounded-[15px] overflow-hidden bg-white box-1"
   >
     <div class="w-full h-[250px] relative">
       <img
