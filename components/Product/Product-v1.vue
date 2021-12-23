@@ -10,7 +10,10 @@
       />
       <div class="w-full flex justify-between z-[10] text-white relative">
         <div class="flex w-full mt-4">
-          <div class="w-[50px] h-[50px]  rounded-full flex cc gradient text-white mx-4">5</div>
+          <div class="w-[50px] h-[50px]  rounded-full flex cc gradient text-white mx-4">
+            <div class="pl-1">5</div>
+            <img src="../../assets/icons/star.png" alt="">
+          </div>
           <div class="h-[50] rounded-full flex cc gradient text-white px-6">1 200 ₽</div>
         </div>
         <div class="flex flex-col items-end justify-center w-[90px] h-full rounded-tr-[15px] rounded-bl-[15px] px-4 font-14 warn-1 pt-4 pb-2">
@@ -21,7 +24,7 @@
     </div>
     <div class="p-4 relative">
       <div class="w-full flex justify-between items-end">
-        <h3 class="font-20 font-bold">Дом павлова</h3>
+        <a class="font-20 font-bold cursor-pointer hover:underline">Дом павлова</a>
         <span class="font-normal font-14"
           >Людей: <span class="font-bold font-14">12</span></span
         >

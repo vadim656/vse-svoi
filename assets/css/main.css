@@ -23,6 +23,10 @@
   @apply text-[14px];
 }
 
+.font-48 {
+  @apply text-[48px];
+}
+
 .warn-1 {
   @apply bg-[#38D990];
 }
@@ -35,11 +39,23 @@
   @apply bg-[#F22727];
 }
 
+.gray-6 {
+  @apply text-[#F2F2F2]
+}
+
 .gradient{
   background: linear-gradient(102.83deg, #04BFBF -6.67%, rgba(2, 89, 89, 0.97) 105.21%);
 }
 
-.box-1{
+.box-1 {
   box-shadow: 6px 30px 40px 10px rgba(0, 0, 0, 0.1);
 }
+
+html {
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 0.05em;
+  overflow-x: hidden;
+}
+
+
 

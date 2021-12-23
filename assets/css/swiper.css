@@ -236,23 +236,27 @@
   }
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
     transform: scale(0.66);
+    color: #fff;
   }
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
     transform: scale(0.33);
+    color: #fff;
   }
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
     transform: scale(0.66);
+    color: #fff;
   }
   .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
     transform: scale(0.33);
+    color: #fff;
   }
   .swiper-pagination-bullet {
     /* width: 8px;
     height: 8px; */
     display: inline-block;
     /* border-radius: 100%; */
-    background: #000;
-    opacity: 0.2;
+    /* background: #000; */
+    opacity: 0.9;
   }
   button.swiper-pagination-bullet {
     border: none;
@@ -270,7 +274,7 @@
     opacity: 1;
   }
   .swiper-container-vertical > .swiper-pagination-bullets {
-    right: 10px;
+    right: 200px;
     top: 50%;
     transform: translate3d(0px, -50%, 0);
   }

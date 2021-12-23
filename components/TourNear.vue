@@ -1,12 +1,13 @@
 <template>
   <div>
-    <div class="container mx-auto h-full ">
+    <div class="container mx-auto h-full">
       <div>
-        <div class="w-full flex my-12">
+        <div class="w-full flex my-12 relative">
           <span class="text-[48px] uppercase font-bold"
             >Ближайшие экскурсии</span
           >
-          <ShowAllButton class="ml-[50px]" />
+          <span class="absolute  left-[50%] text-[288px] text-[#EFEFEF] uppercase font-bold z-[0] select-none leading-none">travel</span>
+          <ShowAllButton class="ml-[50px]  z-[4]">Смотреть все</ShowAllButton>
         </div>
         <div class="w-full h-full  relative block">
           <div class=" flex justify-between">
@@ -30,11 +31,12 @@
 
     <div class="container mx-auto h-full  ">
       <div>
-        <div class="w-full flex my-12">
+        <div class="w-full flex my-12 relative">
           <span class="text-[48px] uppercase font-bold"
             >Сезонные туры</span
           >
-          <ShowAllButton class="ml-[50px]" />
+          <span class="absolute  left-[30%] text-[288px] text-[#EFEFEF] uppercase font-bold z-[0] select-none leading-none">tourism</span>
+          <ShowAllButton class="ml-[50px] z-[4]" >Смотреть все</ShowAllButton>
         </div>
         <div class="w-full h-full  relative block">
           <div class=" flex justify-between">
@@ -65,9 +67,10 @@
 <script>
 import ShowAllButton from './UI/ShowAllButton.vue'
 import ProductV1 from './Product/Product-v1.vue'
+import ShowAllButton1 from './UI/ShowAllButton.vue'
 
 export default {
-  components: { ShowAllButton, ProductV1 }
+  components: { ShowAllButton, ProductV1, ShowAllButton1 }
 }
 </script>
 
