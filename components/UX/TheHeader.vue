@@ -10,7 +10,7 @@
         <div class="flex h-full items-center justify-between w-7/12">
           <div>
               <ul class="flex gap-6 font-18">
-                  <li>Актуальное</li>
+                  <li>New</li>
                   <li>Услуги</li>
                   <li>Контакты</li>
                   <li>Интересное</li>
