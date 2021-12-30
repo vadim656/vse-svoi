@@ -41,6 +41,7 @@
         <ul class="font-18 pt-4">
           <li>Вид экскурсии: <span class="font-bold">{{ data_vid }}</span></li>
           <li>Продолжительность: <span class="font-bold">{{ data_time }}</span></li>
+          <li>{{  data_category }}</li>
         </ul>
         <AddToCart />
       </div>
@@ -67,11 +68,17 @@ export default {
       data_time: this.data.attributes[1].options[0],
       data_people: this.data.attributes[2].options[0],
       data_img: this.data.images[0].src,
-      data_complexity: this.data.attributes[3].options[0]
+      data_complexity: this.data.attributes[3].options[0],
+      data_category: this.data.categories[0].id
     }
   },
-  created() {
-
+  mounted() {
+    const items = this.data
+    for (let index = items; this.data.categories[0].id == 15; index++) {
+      console.log(index);
+      
+    }
+    
   }
 }
 </script>

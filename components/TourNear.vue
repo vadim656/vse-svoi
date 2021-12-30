@@ -13,7 +13,7 @@
           <ShowAllButton class="ml-[50px]  z-[4]">Смотреть все</ShowAllButton>
         </div>
         <div class="w-full h-full  relative block">
-          <div class=" flex justify-between gap-4">
+          <div class=" flex  gap-12">
             <ProductV1
               v-for="product in products"
               :key="product.id"
@@ -76,13 +76,13 @@ export default {
   },
   created () {
     axios
-      .get('https://vse-svoi26.ru/wp/wp-json/wc/v3/products/', {
+      .get('https://vse-svoi26.ru/wp/wp-json/wc/v3/products', {
         auth: {
           username: 'ck_a1e76b0c4740131ec2a95e3710e1d143bc39758d',
           password: 'cs_37bfd52d190b6389298d594b76c101c48a4f252e'
         },
         params: {
-          per_page: 4
+          per_page: 4,
         }
       })
       .then(response => {
@@ -91,7 +91,8 @@ export default {
       .catch(e => {
         this.errors.push(e)
       })
-  }
+  },
+  
 }
 </script>
 
